@@ -1,3 +1,5 @@
+This fork is just the lbry android app but uncensored.
+
 # LBRY Android
 [![pipeline status](https://ci.lbry.tech/lbry/lbry-android/badges/master/pipeline.svg)](https://ci.lbry.tech/lbry/lbry-android/commits/master)
 [![GitHub license](https://img.shields.io/github/license/lbryio/lbry-android)](https://github.com/lbryio/lbry-android/blob/master/LICENSE)
