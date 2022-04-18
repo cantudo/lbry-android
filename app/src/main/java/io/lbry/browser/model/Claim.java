@@ -515,6 +515,8 @@ public class Claim {
         private String appendedPath = "";
 
         public ImageCDNUrl(int width, int height, int quality, @Nullable String format, String thumbnailUrl) {
+            if (thumbnailUrl == null)
+                thumbnailUrl = "a";
             if (width != 0 && height != 0)
                 appendedPath = "s:".concat(String.valueOf(width)).concat(":").concat(String.valueOf(height)).concat("/");
 
